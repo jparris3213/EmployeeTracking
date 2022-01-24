@@ -1,6 +1,3 @@
-SELECT *, department.name
+SELECT employee.first_name, employee.last_name, role.title, role.salary
 FROM role
-LEFT JOIN department
-ON role.department_id = department.id;
-
-SELECT *
+Inner JOIN employee ON employee.role_id=role.id

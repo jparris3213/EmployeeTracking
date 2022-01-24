@@ -1,0 +1,27 @@
+{
+  "name": "employeetracking",
+  "version": "1.0.0",
+  "description": "SQL Based Command-Line Application for Managing basic Employee Database",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "init": "^0.1.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jparris3213/EmployeeTracking.git"
+  },
+  "author": "Jacob Parris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jparris3213/EmployeeTracking/issues"
+  },
+  "homepage": "https://github.com/jparris3213/EmployeeTracking#readme"
+}
